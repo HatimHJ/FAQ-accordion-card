@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="shortcut icon"
+			href="./images/favicon-32x32.png"
+			type="image/x-icon"
+		/>
+		<!-- google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/style.css" />
+		<title>FAQ accordion card ✨</title>
+	</head>
+	<body>
+		<main>
+			<section class="accordion py-8 px-4">
+				<div class="row mt-8 bg-1 border-2 py-4 px-2 flex flex-col">
+					<!-- illustraation -->
+					<div class="col-md-6">
+						<div class="images">
+							<img
+								src="./images/illustration-woman-online-desktop.svg"
+								class="image-desktop"
+								alt=""
+							/>
+							<img
+								src="./images/illustration-woman-online-mobile.svg"
+								class="image-mobile"
+								alt=""
+							/>
+						</div>
+					</div>
+					<!-- info -->
+					<div class="col-md-6 text-2">
+						<h1 class="text-center">FAQs</h1>
+						<div class="faq py-2">
+							<!-- =================================== -->
+							<!-- item #1 -->
+							<div class="accordion-item py-1 ">
+								<h2 class="accordion-header" id="headingOne">
+									<button class="btn accordion-button" type="button">
+										How many team members can I invite?
+									</button>
+									<img src="./images/icon-arrow-down.svg" alt="" class="" />
+								</h2>
+								<p id="collapseOne" class="answer text-7">
+									You can invite up to 2 additional users on the Free plan.
+									There is no limit on team members for the Premium plan
+								</p>
+							</div>
+							<!-- item #2 -->
+							<div class="accordion-item py-1">
+								<h2 class="accordion-header" id="headingTwo">
+									<button class="btn accordion-button" type="button">
+										What is the maximum file upload size?
+									</button>
+									<img src="./images/icon-arrow-down.svg" alt="" class="" />
+								</h2>
+								<p id="collapseOne" class="answer text-7">
+										No more than 2GB. All files in your account must fit your
+										allotted storage space
+								</p>
+							</div>
+							<!-- item #3 -->
+							<div class="accordion-item py-1">
+								<h2 class="accordion-header" id="headingThree">
+									<button class="btn accordion-button" type="button">
+										How do I reset my password?
+									</button>
+									<img src="./images/icon-arrow-down.svg" alt="" class="" />
+								</h2>
+								<p id="collapseOne" class="answer text-7">
+										Click “Forgot password” from the login page or “Change
+										password” from your profile page. A reset link will be
+									</p>
+								</p>
+							</div>
+							<!-- item #4 -->
+							<div class="accordion-item py-1">
+								<h2 class="accordion-header" id="headingFour">
+									<button class="btn accordion-button" type="button">
+										Can I cancel my subscription?
+									</button>
+									<img src="./images/icon-arrow-down.svg" alt="" class="" />
+								</h2>
+								<p id="collapseOne" class="answer text-7">
+										Yes! Send us a message and we’ll process your request no
+										questions asked
+								</p>
+							</div>
+							<!-- item #5 -->
+							<div class="accordion-item py-1">
+								<h2 class="accordion-header" id="headingFive">
+									<button class="btn accordion-button" type="button">
+										Do you provide additional support?
+									</button>
+									<img src="./images/icon-arrow-down.svg" alt="" class="" />
+								</h2>
+								<p id="collapseOne" class="answer text-7">
+										Chat and email support is available 24/7. Phone lines are
+										open during normal business hours
+								</p>
+							</div>
+							<!-- =================================== -->
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<!-- script -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<!-- main -->
+		<script src="./js/main.js"></script>
+	</body>
+</html>
