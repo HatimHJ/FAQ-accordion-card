@@ -1,6 +1,4 @@
-# Frontend Mentor - clipboard landing page master
-
-This is a solution to the [Fylo landing page with two column layout challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+# Frontend Mentor - FAQ accordion card 
 
 ## Table of contents
 
@@ -29,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution](https://github.com/HatimHJ/clipboard-landing-page)
-- Live Site URL: [live site](https://hatimhj.github.io/clipboard-landing-page/)
+- Solution URL: [solution](https://github.com/HatimHJ/FAQ-accordion-card)
+- Live Site URL: [live site](https://hatimhj.github.io/FAQ-accordion-card/)
 
 ### Built with
 
@@ -42,22 +40,6 @@ Users should be able to:
 - SCSS
 - Mobile-first workflow
 
-### What I learned
-
-- layout with grid and flexbox
-
-
-### Continued development
-- javascript animation with GSAP
-- layout with grid and flexbox
-
-### Useful resources
-
-- [W3schools](https://www.w3schools.com/) - the place to go for quick frontend reference and more
-
-- [cssloaders](https://cssloaders.github.io/) - great css only loader
-
-- [bennettfeely](https://bennettfeely.com/clippy/) 
 
 ## Author
 
